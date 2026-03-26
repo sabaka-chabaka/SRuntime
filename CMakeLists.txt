@@ -6,4 +6,6 @@ set(CMAKE_CXX_STANDARD 20)
 add_executable(SRuntime main.cpp
         virtualMachine.cpp
         virtualMachine.h
-        instruction.h)
+        instruction.h
+        Types/Value.cpp
+        Types/Value.h)

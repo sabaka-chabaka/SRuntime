@@ -1,6 +1,8 @@
 #include <iostream>
 
+#include "virtualMachine.h"
+
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    VirtualMachine vm;
     return 0;
 }

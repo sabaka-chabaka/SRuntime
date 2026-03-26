@@ -1,5 +1,9 @@
 #ifndef SRUNTIME_VIRTUALMACHINE_H
 #define SRUNTIME_VIRTUALMACHINE_H
+#include <stack>
+#include <vector>
+
+#include "instruction.h"
 
 enum OpCode {
     Push,
@@ -12,6 +16,7 @@ enum OpCode {
 };
 
 class VirtualMachine {
+private:
 
 };
 
